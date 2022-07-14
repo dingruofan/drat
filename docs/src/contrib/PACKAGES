@@ -6,3 +6,12 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: hyprcoloc
+Version: 1.0
+Depends: R (>= 3.4.0), methods
+Imports: iterpc, Rcpp, RcppEigen, Rmpfr, compiler, Matrix, knitr, rmarkdown, pheatmap, RColorBrewer
+LinkingTo: Rcpp, RcppEigen
+License: GPL (>= 2)
+MD5sum: 517b9962aa37956720a9ad7d26599157
+NeedsCompilation: yes
